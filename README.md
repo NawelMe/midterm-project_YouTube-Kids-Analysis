@@ -1,56 +1,78 @@
 # Kids YouTube Midterm Project – MAT 301
 
-## Author
+## Author  
 **Nawel Messaoudi**  
 Undergraduate Biology major (Bioinformatics Concentration) at Hunter College  
 Summer 2025 | MAT 301: Applied Statistics and Data Analysis (Lehman College)
 
-## About the Project
-This project examines statistical patterns in YouTube videos specifically designed for children's content. As both a student and a parent of young children, I was personally motivated to analyze the types of media kids are exposed to online. My focus was on understanding how engagement metrics, such as views, likes, and comments, behave across different video categories and creators.
+---
 
-## Dataset
-- **Filename**: `Filtered_Kids_Youtube_Videos.csv`
-- **Stored in**: [Google Drive](https://drive.google.com/file/d/1JOI9cBck2VYqkgoYpyu4cnWcOyLZcphL/view?usp=sharing)
-- **Description**: Contains metadata on YouTube videos for children, including views, likes, dislikes, comments, category ID, publish time, and more.
-- Note: The dataset was too large to upload directly to GitHub and is therefore shared via Google Drive.
+## About the Project  
+This project examines engagement trends in YouTube videos specifically made for children. As a parent and student, I was personally interested in understanding how media exposure impacts children. I analyzed the distribution of views, likes, and comments, as well as patterns among categories and popular channels.
 
-## Project Components
-### 1. Data Cleaning & Wrangling
-- Dropped irrelevant columns and duplicates.
-- Removed rows with invalid values (e.g., 0 views or negative comments).
-- Converted publish time to datetime format and checked for nulls and outliers.
+---
 
-### 2. Statistical Analysis
-- Calculated measures of **central tendency**: mean, median, and mode.
-- Evaluated **spread** using standard deviation and interquartile range (IQR).
-- Answered four probability questions using sample data.
+## Dataset  
+- **Filename**: `Filtered_Kids_Youtube_Videos.csv`  
+- **Hosted on GitHub**: [Download Raw CSV](https://raw.githubusercontent.com/NawelMe/midterm-project_YouTube-Kids-Analysis/main/Filtered_Kids_Youtube_Videos.csv)  
+- **Description**: Filtered subset of trending YouTube videos tailored for children. Includes metrics like views, likes, dislikes, comments, channel title, category ID, and publish time.
 
-### 3. Visualizations
-- **Pairplot**: explored relationships among key metrics (views, likes, comments).
-- Three additional visualizations:
-  - **Histogram**: distribution of views (right-skewed).
-  - **Boxplot**: likes by category ID.
-  - **Line graph**: trends in views over publish dates.
+---
 
-### 4. Regression Analysis
-- Focused on the relationship between **likes** and **views**.
-- Fitted a least squares regression line and calculated the correlation coefficient.
-- Predicted number of views for a video with 100,000 likes.
+## Project Structure (Notebook)  
+The analysis follows this structure:
 
-### 5. Freestyle Exploration
-- Investigated which YouTube channels received the highest average number of likes.
-- Found that music and entertainment creators dominated top rankings.
+1. **Data Cleaning & Wrangling**
+   - Removed duplicates and irrelevant columns
+   - Converted `publish_time` to datetime
+   - Filtered out rows with missing or invalid data
 
-## Final Deliverables
-- 📓 **Notebook**: [Google Colab Link](https://drive.google.com/file/d/1lcy0Kzq0AFAdelu4zQV6m4L0RAGHWNKR/view?usp=sharing)
-- 🎥 **Video Presentation**: [Watch Video](<insert-Video-link-here>)
-- 📂 **Dataset**: [Download CSV from Google Drive](https://drive.google.com/file/d/1JOI9cBck2VYqkgoYpyu4cnWcOyLZcphL/view?usp=sharing)
+2. **Measures of Central Tendency**
+   - Asked 3 questions about average behavior
+   - Computed mean, median, and mode
+   - Provided interpretations in context
 
-## Tools Used
-- Python: `pandas`, `seaborn`, `matplotlib`, `scipy`
-- Google Colab for coding and markdown annotations
-- GitHub for sharing the project
-- Google Drive for dataset storage
+3. **Measures of Spread**
+   - Asked 2 questions about data variability
+   - Calculated standard deviation and IQR
+   - Interpreted variability in comment activity and views
 
-## Acknowledgments
-This project was submitted as part of the midterm requirement in **MAT 301: Applied Statistics and Data Analysis** at Lehman College, under the guidance of Professor Eric Aragundi.
+4. **Visualizations**
+   - Pairplot exploring views, likes, dislikes, and comments
+   - Histogram of view counts
+   - Boxplot of likes across categories
+   - Line plot showing total views over time
+
+5. **Scatterplot with Linear Regression**
+   - Analyzed relationship between likes and views
+   - Fitted regression line and calculated correlation coefficient
+   - Predicted expected views for a video with 100,000 likes
+
+6. **Probability Questions**
+   - Computed 4 probabilities using dataset
+   - Included AND/OR logic and conditional probabilities
+   - Clarified interpretation of each probability in sample context
+
+7. **Freestyle Exploration**
+   - Identified top 10 channels with the highest average likes
+   - Included the exact code used to support this insight
+
+---
+
+## Final Deliverables  
+- **Notebook**: [Kids_Youtube_Midterm_Project.ipynb](https://github.com/NawelMe/midterm-project_YouTube-Kids-Analysis/blob/main/Kids_Youtube_Midterm_Project.ipynb)  
+- **Video Presentation**: [Watch Video](<insert-your-video-link-here>)  
+- **Dataset**: [Raw CSV File on GitHub](https://raw.githubusercontent.com/NawelMe/midterm-project_YouTube-Kids-Analysis/main/Filtered_Kids_Youtube_Videos.csv)
+
+---
+
+## Tools Used  
+- Python (`pandas`, `seaborn`, `matplotlib`, `scipy`)  
+- Google Colab for code and markdown  
+- GitHub for version control  
+- YouTube/Google Drive for video submission
+
+---
+
+## Acknowledgments  
+Submitted as the midterm project for **MAT 301: Applied Statistics and Data Analysis** at Lehman College under Professor Eric Aragundi.
