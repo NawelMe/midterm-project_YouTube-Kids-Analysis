@@ -62,7 +62,7 @@ The analysis follows this structure:
 ## Final Deliverables  
 - **Notebook (Google Colab)**: [Open in Colab](https://colab.research.google.com/drive/1lcy0Kzq0AFAdelu4zQV6m4L0RAGHWNKR?usp=sharing)  
 - **Dataset (Google Drive)**: [Raw CSV File](https://drive.google.com/file/d/1JOI9cBck2VYqkgoYpyu4cnWcOyLZcphL/view?usp=sharing)  
-- **Video Presentation**: [Watch Video](<insert-your-video-link-here>)  
+- **Video Presentation**: [Watch Video](<https://youtu.be/_6F27Kx6YXY>)  
 - **GitHub Repository**: [Project GitHub Repo](https://github.com/NawelMe/midterm-project_YouTube-Kids-Analysis.git)
 
 ---
